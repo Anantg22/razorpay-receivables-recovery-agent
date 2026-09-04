@@ -87,12 +87,3 @@ This repo includes a dependency-free Node server that demonstrates the Razorpay 
 Mock mode is enabled by default so the demo remains safe for public judging. Real Razorpay test keys should be provided only through local or hosted environment variables.
 
 The runtime state file is `data/recovery-state.json`. It is intentionally ignored by Git because it is generated demo state, not source code.
-
-## Pitch Demo Path
-
-1. Show the summary cards: active risk, recovered revenue, promises, and escalations.
-2. Show the analytics row: segment concentration, expected recovery, and intervention mix.
-3. Click `Run agent pass` to prove the agent can choose the highest-risk invoice and prepare the handoff.
-4. Click `Server handoff` to show the backend-owned Razorpay boundary and request shape.
-5. Click `Signed webhook` to show a signed `payment_link.paid` event changing server-owned recovered revenue.
-6. Click `Generate report` or `Audit summary` to prove measurement and traceability.
