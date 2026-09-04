@@ -68,7 +68,7 @@ Production credentials must never be shipped to the browser. A production system
 - verify payment signatures or webhooks on the server
 - update recovery status only after verified payment success
 
-## Phase R3 Backend
+## Backend
 
 This repo includes a dependency-free Node server that demonstrates the Razorpay boundary without exposing real credentials.
 
